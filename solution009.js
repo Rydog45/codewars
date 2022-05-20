@@ -7,10 +7,10 @@
 function trigrams( phrase ) {
     if(phrase.length < 3) return '';
     let result = '';
-    let workStr = phrase.replace(/ /g, '_');
+    let Str = phrase.replace(/ /g, '_');
     for(let i = 0; i < phrase.length; i++) {
       result += workStr.slice(0, 3) + ' ';
-      workStr = workStr.slice(1); 
+      Str = Str.slice(1); 
       if(workStr.length < 3) break;
       
     }
