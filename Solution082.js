@@ -1,7 +1,5 @@
-// Given an array of integers your solution should find the smallest integer.
+// Write reverseList function that simply reverses lists.
 
-class SmallestIntegerFinder {
-    findSmallestInt(args) {
-      return Math.min.apply(null, args);
-    }
-  }
+function reverseList(arr) {
+  return arr.reverse();
+}
